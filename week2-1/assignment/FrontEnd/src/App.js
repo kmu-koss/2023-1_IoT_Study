@@ -43,6 +43,7 @@ function App() {
                         <div className="dust-value">
                             {dustInfo.value}
                             <span>㎍/㎥</span>
+                            
                         </div>
                     </div>
                     <div className="btn-container">

@@ -28,15 +28,22 @@
 - 장소 : 국민대학교 미래관 445호
 - 주제 : `1. Server - Node.js와 EXPRESS.JS 입문`
 - 강의 자료 : <a href="./week2-1"> 링크 </a>
-- 과제 제출 : <a href=""> 링크 </a>
+- 과제 제출 : <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/4"> 링크 </a> 
 
 ## 과제 제출 - GitHub
 
 ### 과제 제출 방법
 과제를 제출할 때에는 다음과 같이 제출합니다.
-1. 자신의 모각코 조의 Branch Repository를 Fork합니다.
+1. 해당 Repository를 Fork합니다.
+<img src="./src/fork.png">
+
 2. 과제를 완성하고, 자신의 모각코 조의 Branch에 Pull Requset를 건다.
+<img src="./src/pullrequest.png">
+
 3. 단, Pull Request를 걸때, #1과 같이 과제 번호와 연결한다.
+<img src="./src/pullrequest2.png">
+
+---
 
 ### 온라인 질문 방법
 스터디 시간 이외에 하고 싶은 질문이 있다면 Issue를 통하여 질문을 올려주시면 됩니다! <br>
