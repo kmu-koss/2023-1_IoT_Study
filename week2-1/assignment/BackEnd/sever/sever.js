@@ -11,7 +11,7 @@ app.listen(port, () => {
 
 const table = [
   { team: "String Type Team Name", value: "Number Type Dust Value" },
-  { team: "모각코 2조", value: "38" }
+  { team: "모각코 9조", value: "38" }
 ];
 
 
