@@ -15,7 +15,7 @@ function App() {
 
     const handleReloadClick = async (team) => {
         try {
-            const result = await axios.get("http://127.0.0.1:8000/dust");
+            const result = await axios.get("http://localhost:8000/dust");
             console.log(result.data);
             setDustInfos(result.data);
         } catch (error) {
@@ -23,15 +23,15 @@ function App() {
         }
     };
 
-    const handleToggle = async () => {
+    const handleToggle = async (currentStatus) => {
         try {
-            const result = await axios.patch("http://127.0.0.1:8000/toggle");
-            console.log(result.data);
-            setToggle(result.data);
-        } catch (error) {
-            console.log(error);
+            const result = await axios.patch("http://localhost:8000/toggle", { toggle: currentStatus }, { headers: { "Content-Type": "application/json" } }
+            );
+            setToggle(result.data.toggle);
+            } catch (error) {
+                console.log(error);
+            }
         }
-    };
 
     return (
         <div>
@@ -52,7 +52,7 @@ function App() {
                         >
                             Reload
                         </button>
-                        <button className="btn" onClick={() => handleToggle()}>
+                        <button className="btn" onClick={() => handleToggle(toggle)}>
                             {toggle}
                         </button>
                     </div>
