@@ -23,7 +23,7 @@
 <img src="img/assignment2.jpg"> <br>
 과제 2에서는 Express를 사용하여 Web Server를 구현하고, React와 연동하여 데이터를 주고 받는 것을 해보았습니다. <br><br>
 그리고 미리 고지해드린 다음 과제, 과제 3의 System Architecture를 본다면 다음과 같습니다. <br>
-<img src="img/assignment3.jpg"> <br>
+<img src="img/assignment3changed.jpg"> <br>
 과제 3에서는 Raspberry Pi에 MQTT Broker를 사용하여 다음과 같은 System Architecture와 같이 구현하여 MQTT 서버로 데이터를 보내면, 그 값을 서버가 받아서 UI에서 가져오도록 해보겠습니다.<br><br>
 <img src="img/assignment4.jpg"> <br>
 과제 4에서는 과제 3에 MongoDB를 추가하여 데이터를 Insert하고, Insert한 데이터를 Find하여 가져와서 표기하는 과제를 진행해보겠습니다.
@@ -145,7 +145,7 @@ Content-Length: 29
 이전 과제에서는 `[{ team: "모각코 7조", value: "28" }, { team: "모각코 2조", value: "38" }]`을 하드 코딩을 통해서 저장했었는데, 이번에는 Raspberry Pi로 MQTT Broker를 사용하여메시지를 Publish 할 때마다 `/dust` Topic에 `{ team: "모각코 7조", value: 48 }`와 같은 방식으로 정보를 가져오고 UI에 표기해주세요! <br>
 아래의 System Architecture를 참고하여 만들어주세요!
 
-<img src="img/assignment3.jpg">
+<img src="img/assignment3changed.jpg">
 
 <br><br>
 
