@@ -15,7 +15,7 @@ function App() {
 
     const handleReloadClick = async (team) => {
         try {
-            const result = await axios.get("http://127.0.0.1:8000/dust");
+            const result = await axios.get("http://127.0.0.1:3000/dust/" + toggle);
             console.log(result.data);
             setDustInfos(result.data);
         } catch (error) {
@@ -25,7 +25,7 @@ function App() {
 
     const handleToggle = async () => {
         try {
-            const result = await axios.patch("http://127.0.0.1:8000/toggle");
+            const result = await axios.patch("http://127.0.0.1:3000/toggle/" + toggle);
             console.log(result.data);
             setToggle(result.data);
         } catch (error) {
