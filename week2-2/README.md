@@ -24,8 +24,9 @@
 과제 2에서는 Express를 사용하여 Web Server를 구현하고, React와 연동하여 데이터를 주고 받는 것을 해보았습니다. <br><br>
 그리고 미리 고지해드린 다음 과제, 과제 3의 System Architecture를 본다면 다음과 같습니다. <br>
 <img src="img/assignment3.jpg"> <br>
-과제 3에서는 MongoDB를 추가하여 데이터를 Insert하고, Insert한 데이터를 Find하여 가져와서 React의 표기하는 과제를 진행해보았습니다.<br><br>
-이번에는 Raspberry Pi에 MQTT Broker를 사용하여 다음과 같은 System Architecture와 같이 구현하여 MQTT 서버로 데이터를 보내고, 받아서 MongoDB에 Insert하고, 그렇게 Insert된 데이터를 UI에서 가져오도록 만들어보겠습니다.
+과제 3에서는 Raspberry Pi에 MQTT Broker를 사용하여 다음과 같은 System Architecture와 같이 구현하여 MQTT 서버로 데이터를 보내면, 그 값을 서버가 받아서 UI에서 가져오도록 해보겠습니다.
+과제 4에서는 과제 3에 MongoDB를 추가하여 데이터를 Insert하고, Insert한 데이터를 Find하여 가져와서 표기하는 과제를 진행해보겠습니다.<br><br>
+
 <img src="img/assignment4.jpg">
 <br><br>
 
