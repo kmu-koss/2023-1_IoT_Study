@@ -143,6 +143,7 @@ Content-Length: 29
 ## 과제(~4/13)
 해당 과제도 모각코 조와 함께하는 과제로 13일까지 제출해주세요. <br>
 이전 과제에서는 `[{ team: "모각코 7조", value: "28" }, { team: "모각코 2조", value: "38" }]`을 하드 코딩을 통해서 저장했었는데, 이번에는 Raspberry Pi로 MQTT Broker를 사용하여메시지를 Publish 할 때마다 `/dust` Topic에 `{ team: "모각코 7조", value: 48 }`와 같은 방식으로 정보를 가져오고 UI에 표기해주세요! <br>
+참고) 우리가 사용한 MQTT는 Mosquitto MQTT이며, node.js / mqtt 모듈이라는 키워드를 통해서 검색해서 사용해보세요!<br>
 아래의 System Architecture를 참고하여 만들어주세요!
 
 <img src="img/assignment3changed.jpg">
