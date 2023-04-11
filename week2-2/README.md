@@ -142,16 +142,17 @@ Content-Length: 29
 
 ## 과제(~4/13)
 해당 과제도 모각코 조와 함께하는 과제로 13일까지 제출해주세요. <br>
-이전 과제에서는 `[{ team: "모각코 7조", value: "28" }, { team: "모각코 2조", value: "38" }]`을 하드 코딩을 통해서 저장했었는데, 이번엔 MongoDB(혹은 MongoDB Atlas)와 Mongoose를 Express 서버에 추가하여 데이터베이스에 있는 정보들을 find하여 미세먼지 정보를 가져오고, 그 정보를 GET Method가 동작할때 보낼 수 있도록 만들어보세요! <br>
-그리고 Mongoose를 사용할때 민감한 정보(아이디, 비밀번호)가 포함되기 때문에, GitHub에 절대 올리지 마시고 dotenv 모듈을 공부하여 dotenv를 통해서 민감한 데이터가 공개되지 않게 만드세요! <br>
-아래의 System Architecture를 참고하여 만들어주세요! 
+이전 과제에서는 `[{ team: "모각코 7조", value: "28" }, { team: "모각코 2조", value: "38" }]`을 하드 코딩을 통해서 저장했었는데, 이번에는 Raspberry Pi로 MQTT Broker를 사용하여메시지를 Publish 할 때마다 `/dust` Topic에 `{ team: "모각코 7조", value: 48 }`와 같은 방식으로 정보를 가져오고 UI에 표기해주세요! <br>
+아래의 System Architecture를 참고하여 만들어주세요!
 
 <img src="img/assignment3.jpg">
 
 <br><br>
 
 ## 미리 보는 과제(~5/2)
-Raspberry Pi에 MQTT Broker를 올리고, MQTT Broker에다가 `/dust` Topic에 `{ team: "모각코 7조", value: 48 }`를 보내면 Express에서 해당 데이터를 받아서, MongoDB에 데이터를 Insert 하게 구현해주시면 됩니다!<br>
+해당 과제도 모각코 조와 함께하는 과제로 13일까지 제출해주세요. <br>
+이번엔 MongoDB(혹은 MongoDB Atlas)와 Mongoose를 Express 서버에 추가하여 MQTT 통신으로 받은 데이터를 데이터베이스에 넣고, 데이터베이스에 있는 정보들을 find하여 정보를 가져와 그 정보를 GET Method가 동작할때 보낼 수 있도록 만들어보세요! <br>
+그리고 Mongoose를 사용할때 민감한 정보(아이디, 비밀번호)가 포함되기 때문에, GitHub에 절대 올리지 마시고 dotenv 모듈을 공부하여 dotenv를 통해서 민감한 데이터가 공개되지 않게 만드세요! <br>
 
 아래의 System Architecture를 참고하여 만들어주세요! 
 
