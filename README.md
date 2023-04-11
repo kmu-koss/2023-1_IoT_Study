@@ -10,12 +10,14 @@
 - 장소 : 국민대학교 미래관 445호
 - 주제 : `1. Server - JavaScript에 대한 이해`
 - 강의 자료 : <a href="./week1"> 링크 </a>
+- 과제 제출 : <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/1"> 링크 </a> 
 
 ### 2주차
-- 날짜 : 2023-04-06 18:30 ~ 21:00
+- 날짜 : 2023-04-11 18:30 ~ 21:00
 - 장소 : 국민대학교 미래관 445호
-- 주제 : `1. Server - Node.js 입문`
-- 강의 자료 : <a href="./week2-1"> 링크 </a>
+- 주제 : `2. Embedded System - Raspberry Pi & MQTT Protocol`
+- 강의 자료 : <a href="./week2-2"> 링크 </a>
+- 과제 제출 : <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/10"> 링크 </a>
 
 ## 모각코 진도
 모각코에서는 모각코 조끼리 모여서 자료들을 보면서 공부하며, 과제를 수행하는 방식으로 스터디와 함께 병행됩니다.
@@ -35,13 +37,13 @@
 ### 과제 제출 방법
 과제를 제출할 때에는 다음과 같이 제출합니다.
 1. 해당 Repository를 Fork합니다.
-<img src="./src/fork.png">
+<img src="./img/fork.png">
 
 2. 과제를 완성하고, 자신의 모각코 조의 Branch에 Pull Requset를 건다.
-<img src="./src/pullrequest.png">
+<img src="./img/pullrequest.png">
 
 3. 단, Pull Request를 걸때, #1과 같이 과제 번호와 연결한다.
-<img src="./src/pullrequest2.png">
+<img src="./img/pullrequest2.png">
 
 ---
 
@@ -51,16 +53,17 @@
 
 ### GitHub Issue 질문 포맷
 1. 해당 Repository의 <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues">Issues 카테고리</a>에서 New Issue 버튼을 누른다.<br>
-<img src="./src/NewIssue.png">
+<img src="./img/NewIssue.png">
 
 2. 제목은 `[질문][과제] Express와 MongoDB를 연결하는 부분에 대해서 질문이 있습니다.`와 같은 포맷을 사용하여 올려주세요!
 
 3. Write에는 보다 상세하게 어떤 부분에 문제가 있고, 어떤게 궁금한지 남겨주세요!
 
 4. 아래의 사진과 같이 Labels에 question와 Assginment(과제에 대한 질문이라면.)를 추가하여 올려주세요!<br>
-<img src="./src/label.png">
+<img src="./img/label.png">
 
 5. 그 이후에 멘토가 확인하고 해당 이슈에 comment를 달아드립니다.
 
 6. 만약 문제가 해결됐으면, `질문 해결됐습니다`와 같은 comment와 함께 close with comment 버튼을 눌러주시면 됩니다.<br>
-<img src="./src/closeissue.png">
+<img src="./img/closeissue.png">
+
