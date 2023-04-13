@@ -67,8 +67,10 @@ Content-Length: 29
 ### mosquitto 설정
 - 윈도우 환경에서 mosquitto 설치
     1. <a href="https://mosquitto.org/download/">mosquitto 다운로드</a>에 접속하여 mosquitto 프로그램(Window용(64bit)) 다운
-    
-    2. 두개의 터미널로 통신 테스트(mosquitto가 설치된 서렉토리에서)
+
+    2. 제어판 -> 서비스에서 mosquitto 서버 구동 확인
+   
+    3. 두개의 터미널로 통신 테스트(mosquitto가 설치된 디렉토리에서)
         ```
         mosquitto_sub -d -t hello/world
         mosquitto_pub -d -t hello/world -m "Hello from Terminal window 2!"
