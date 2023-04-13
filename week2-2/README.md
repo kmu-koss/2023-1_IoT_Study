@@ -65,6 +65,15 @@ Content-Length: 29
 여기서 중요한 것은 MQTT Broker가 가운데에 있다는 건데, 우리는 이제 이 Broker 서버를 Raspberry Pi에 설치하고, Broker에 연결하여 Express 서버가 MQTT Broker와 연결하여 특정 Topic을 Subscribe하고 외부 서버(노트북) 또한 Broker와 연결을 진행한 후, 특정 Topic에 Publish를 하는 과정을 보여드릴 것입니다.
 
 ### mosquitto 설정
+- 윈도우 환경에서 mosquitto 설치
+    1. <a href="https://mosquitto.org/download/">mosquitto 다운로드</a>에 접속하여 mosquitto 프로그램(Window용(64bit)) 다운
+    
+    2. 두개의 터미널로 통신 테스트(mosquitto가 설치된 서렉토리에서)
+        ```
+        mosquitto_sub -d -t hello/world
+        mosquitto_pub -d -t hello/world -m "Hello from Terminal window 2!"
+        ```
+        위처럼 테스트를 해보고 mosquitto 서버 부분(-h 옵션 사용)에 라즈베리파이 ip주소를 적어주시면 통신이 됩니다.
 - 라즈베리파이(우분투) 환경에서 mosquitto 설치
     1. 시스템 업데이트
         ```
